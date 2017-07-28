@@ -1,0 +1,43 @@
+[Ilwis]
+Description=iff(valle_derecho="pnt 1",pendiente_mixteque_res,?)
+Time=1321216880
+Version=3.1
+Class=Raster Map
+Type=BaseMap
+DomainChangeable=Yes
+ValueRangeChangeable=Yes
+ExpressionChangeable=Yes
+[BaseMap]
+CoordSystem=andes.csy
+CoordBounds=291579.49999999994 962398 294154.49999999994 967552.99999999988
+Domain=pendiente_mixteque.dom
+DomainInfo=pendiente_mixteque.dom;Long;value;0;0.00:3000.00:0.01:offset=0;
+Range=0:100:offset=-1
+Type=Map
+Proximity=12.875000
+MinMax=0:100
+Perc1=2:90
+[Map]
+GeoRef=interpolacion.grf
+Size=1031 515
+Type=MapStore
+[IlwisObjectVirtual]
+Expression=iff(valle_derecho="pnt 1",pendiente_mixteque_res,?)
+DefOnlyPossible=Yes
+[ObjectDependency]
+NrDepObjects=2
+Object0=valle_derecho.mpr
+Object1=pendiente_mixteque_res.mpr
+[MapVirtual]
+Expression=iff(valle_derecho="pnt 1",pendiente_mixteque_res,?)
+Type=MapCalculate
+[MapStore]
+StoreTime=1321216880
+Data=valle_derecho_pendiente.mp#
+Structure=Line
+StartOffset=0
+RowLength=515
+PixelInterLeaved=No
+SwapBytes=No
+Type=Byte
+UseAs=No

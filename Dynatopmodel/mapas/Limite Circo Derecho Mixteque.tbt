@@ -1,0 +1,34 @@
+[Ilwis]
+Description=
+Time=1226352760
+Version=3.1
+Class=Table
+Type=Table
+[Table]
+Domain='Limite Circo Derecho Mixteque'.mpp
+DomainInfo=Limite Circo Derecho Mixteque.mpp;Long;UniqueID;0;;
+Columns=1
+Records=2
+Type=TableStore
+[TableStore]
+Data='Limite Circo Derecho Mixteque'.TB#
+UseAs=No
+Col0=Name
+Type=TableBinary
+StoreTime=1226352728
+[Col:Name]
+Description=
+Time=1226352750
+Version=3.1
+Class=Column
+Domain=String.dom
+DomainInfo=string.dom;String;string;0;;
+ReadOnly=No
+OwnedByTable=No
+StoreType=String
+Stored=Yes
+Type=ColumnStore
+[TableView]
+StatPaneVisible=No
+RecordView=No
+ButtonWidth=8

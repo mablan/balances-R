@@ -1,0 +1,23 @@
+[Ilwis]
+Description=
+Time=1195060760
+Version=3.1
+Type=CoordSystem
+Class=Coordinate System Projection
+
+[Domain]
+Type=DomainCoord
+
+[CoordSystem]
+CoordBounds=270000 930000 348000 1020000
+Width=27
+Decimals=2
+UnitSize=1.000000
+Type=Projection
+Projection=utm
+Datum=Provisional South American 1956
+Datum Area=Venezuela
+
+[Projection]
+Northern Hemisphere=Yes
+Zone=19

@@ -1,0 +1,43 @@
+[Ilwis]
+Description=iff(valle_derecho="pnt 1",mixteque_dem_res,?)
+Time=1321210634
+Version=3.1
+Class=Raster Map
+Type=BaseMap
+DomainChangeable=Yes
+ValueRangeChangeable=Yes
+ExpressionChangeable=Yes
+[BaseMap]
+CoordSystem=andes.csy
+CoordBounds=291579.49999999994 962398 294154.49999999994 967552.99999999988
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=3294:4090:offset=0
+Type=Map
+Proximity=12.875000
+MinMax=3601:4081
+Perc1=3635:4065
+[Map]
+GeoRef=interpolacion.grf
+Size=1031 515
+Type=MapStore
+[IlwisObjectVirtual]
+Expression=iff(valle_derecho="pnt 1",mixteque_dem_res,?)
+DefOnlyPossible=Yes
+[ObjectDependency]
+NrDepObjects=2
+Object0=valle_derecho.mpr
+Object1=mixteque_dem_res.mpr
+[MapVirtual]
+Expression=iff(valle_derecho="pnt 1",mixteque_dem_res,?)
+Type=MapCalculate
+[MapStore]
+StoreTime=1321210634
+Data=Valle_derecho_dem.mp#
+Structure=Line
+StartOffset=0
+RowLength=515
+PixelInterLeaved=No
+SwapBytes=No
+Type=Int
+UseAs=No

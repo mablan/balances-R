@@ -1,0 +1,12 @@
+I am executing Dynamic Topmodel using Brompton test case, the script (for the run.dtm function) and the package dynatopmodel (for other functions like build_chans, discretise, etc).
+
+I had to modify a little the file init.r due to lack of some sources, but it wasn´t a problem. I get graphics results but I would like to have the file with "RunSummary" function.
+
+
+Archivo init.R
+===============
+Comenté líneas de código por no contar con las fuentes (número 6 y 16)
+source("~/source/set_paths.r")
+source("~/source/load_libs.r")
+
+También comenté las líneas de código que invocaban la función LoadPackages(), y en sustitución añadí líneas de código para cargabar los respectivos paquetes. 

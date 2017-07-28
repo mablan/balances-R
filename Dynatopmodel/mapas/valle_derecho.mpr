@@ -1,0 +1,43 @@
+[Ilwis]
+Description=MapResample('Circo derecho Mixteque'.mpr,interpolacion.grf,NearestNeighbour)
+Time=1235598796
+Version=3.1
+Class=Raster Map
+Type=BaseMap
+[BaseMap]
+CoordSystem=andes.csy
+CoordBounds=291579.49999999994 962398 294154.49999999994 967552.99999999988
+Domain='Limite Circo Derecho Mixteque'.mpp
+DomainInfo=Limite Circo Derecho Mixteque.mpp;Long;UniqueID;0;;
+Type=Map
+Proximity=34.300000
+[Map]
+GeoRef=interpolacion.grf
+Size=1031 515
+Type=MapStore
+[IlwisObjectVirtual]
+Expression=MapResample('Circo derecho Mixteque'.mpr,interpolacion.grf,NearestNeighbour)
+DefOnlyPossible=No
+[ObjectDependency]
+NrDepObjects=2
+Object0='Circo derecho Mixteque'.mpr
+Object1=interpolacion.grf
+[MapVirtual]
+Expression=MapResample('Circo derecho Mixteque'.mpr,interpolacion.grf,NearestNeighbour)
+Type=MapFromMap
+[MapFromMap]
+Map='Circo derecho Mixteque'.mpr
+Type=MapResample
+[MapResample]
+ResampleMethod=NearestNeighbour
+Patch=Yes
+[MapStore]
+StoreTime=1235598796
+Data=valle_derecho.mp#
+Structure=Line
+StartOffset=0
+RowLength=515
+PixelInterLeaved=No
+SwapBytes=No
+Type=Long
+UseAs=No

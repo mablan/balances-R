@@ -1,0 +1,73 @@
+[Domain]
+Description=Domain UniqueID "Limite Circo Derecho Mixteque.mpp"
+Time=1226352760
+Version=3.1
+Class=Domain UniqueID
+Width=8
+Type=DomainUniqueID
+[Ilwis]
+ContainsDom=True
+Description=
+Time=1226352762
+Version=3.1
+Class=Point Map
+Type=BaseMap
+[DomainSort]
+Sorting=AlphaNumeric
+Prefix=pnt
+[DomainIdentifier]
+Nr=2
+[BaseMap]
+AttributeTable='Limite Circo Derecho Mixteque'.tbt
+CoordSystem=andes.csy
+CoordBounds=287928.23999999999 962901 294799 969752.90299999993
+Domain='Limite Circo Derecho Mixteque'.mpp
+DomainInfo=Limite Circo Derecho Mixteque.mpp;Long;UniqueID;0;;
+Proximity=34.259515
+Type=PointMap
+[PointMap]
+Points=2
+Type=PointMapStore
+[Table]
+Description=
+Time=1226352760
+Version=3.1
+Class=Table
+Domain=None.dom
+DomainInfo=None.dom;Byte;none;0;;
+Columns=2
+Records=2
+Type=TableStore
+[TableStore]
+Data='Limite Circo Derecho Mixteque'.pt#
+UseAs=No
+Col0=Coordinate
+Col1=Name
+Type=TableBinary
+StoreTime=1226352728
+[Col:Coordinate]
+Description=
+Time=1226352728
+Version=3.1
+Class=Column
+Domain=andes.csy
+DomainInfo=;Coord;coord;0;;
+ReadOnly=No
+OwnedByTable=Yes
+StoreType=Coord
+Stored=Yes
+Type=ColumnStore
+[Col:Name]
+Description=Point name/value
+Time=1226352728
+Version=3.1
+Class=Column
+Domain='Limite Circo Derecho Mixteque'.mpp
+DomainInfo=Limite Circo Derecho Mixteque.mpp;Long;UniqueID;0;;
+ReadOnly=No
+OwnedByTable=Yes
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[PointMapStore]
+StoreTime=1226352760

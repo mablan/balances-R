@@ -1,0 +1,24 @@
+[Ilwis]
+Description=GeoReference Corners "anisotric kriging"
+Time=1245640922
+Version=3.1
+Class=GeoReference Corners
+Type=GeoRef
+[GeoRef]
+CoordSystem=andes.csy
+Lines=1031
+Columns=515
+Type=GeoRefCorners
+[GeoRefSmpl]
+a11=0.200000000000
+a12=0.000000000000
+a21=0.000000000000
+a22=-0.200000000000
+b1=-58315.900000000001
+b2=193510.600000000010
+[GeoRefCorners]
+CornersOfCorners=No
+MinX=291582.000000
+MinY=962400.500000
+MaxX=294152.000000
+MaxY=967550.500000

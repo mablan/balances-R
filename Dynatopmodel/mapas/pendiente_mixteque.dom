@@ -1,0 +1,18 @@
+[Ilwis]
+Description=
+Time=1207457636
+Version=3.1
+Class=Domain Value
+Type=Domain
+[Domain]
+Width=7
+Type=DomainValue
+Representation=pseudo.rpr
+[DomainValue]
+Type=DomainValueReal
+[DomainValueReal]
+Min=0.000000
+Max=3000.000000
+Step=0.010000
+Fixed Range=No
+Fixed Precision=No
